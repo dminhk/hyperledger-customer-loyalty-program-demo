@@ -5,8 +5,9 @@ https://developer.ibm.com/code/patterns/customer-loyalty-program-with-blockchain
 https://github.com/IBM/customer-loyalty-program
 
 ## VM Preparation
-* Ubuntu 16.04 LTS on VirtualBox
-* 20GB Drive (10GB is NOT enough)
+* Ubuntu 16.04 LTS on VirtualBox (5.2.12)
+- 4096 MB Memory
+- 20GB Drive (10GB is NOT enough)
 * Take a snapshot in VirtualBox for restore once baseline OS is installed
 * SSH to Ubuntu VM using port forwarding
 
