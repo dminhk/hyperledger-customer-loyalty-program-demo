@@ -148,3 +148,9 @@ npm install
 ```
 npm start
 ```
+
+## Delete existing admin card
+
+```
+composer card delete --card admin@clp-network
+```
