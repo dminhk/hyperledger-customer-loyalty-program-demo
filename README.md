@@ -94,12 +94,10 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 * docker-compose install in Ubuntu: https://docs.docker.com/compose/install/#prerequisites
 
-### demo Set-up
+### Demo Set-up
 
 ```
 cd customer-loyalty-program/fabric-dev-servers
-
-cd /home/<username>/customer-loyalty-program/fabric-dev-servers
 
 sudo ./downloadFabric.sh
 
