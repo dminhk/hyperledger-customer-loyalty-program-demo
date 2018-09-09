@@ -57,6 +57,21 @@ npm install -g generator-hyperledger-composer@0.19.4
 * Hyperledger Composer
   * https://stackoverflow.com/questions/48866375/errorunable-to-install-composer-cli
 
+## Generate the Business Network Archive
+
+```
+cd customer-loyalty-program
+
+npm install
+
+ls
+clp-network@0.0.1.bna  fabric-dev-servers  MAINTAINERS.md  package.json       queries.qry
+CONTRIBUTING.md        lib                 models          package-lock.json  README.md
+docs                   LICENSE             node_modules    permissions.acl    web-app
+```
+
+* clp-network@0.0.1.bna file is created.
+
 ## Deploy Network - Deploy Hyperledger Fabric locally
 
 ### Install Docker CE
@@ -105,21 +120,6 @@ sudo ./startFabric.sh
 
 ./createPeerAdminCard.sh
 ```
-
-### Generate the Business Network Archive
-
-```
-cd customer-loyalty-program
-
-npm install
-
-ls
-clp-network@0.0.1.bna  fabric-dev-servers  MAINTAINERS.md  package.json       queries.qry
-CONTRIBUTING.md        lib                 models          package-lock.json  README.md
-docs                   LICENSE             node_modules    permissions.acl    web-app
-```
-
-* clp-network@0.0.1.bna file is created.
 
 ### Run Application
 
