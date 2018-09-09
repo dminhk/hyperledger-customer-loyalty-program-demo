@@ -1,8 +1,8 @@
 # Hyperledger Customer Loyalty Program Demo
 
 * Reference
-https://developer.ibm.com/code/patterns/customer-loyalty-program-with-blockchain/
-https://github.com/IBM/customer-loyalty-program
+  https://developer.ibm.com/code/patterns/customer-loyalty-program-with-blockchain/
+  https://github.com/IBM/customer-loyalty-program
 
 ## VM Preparation
 * Ubuntu 16.04 LTS on VirtualBox (5.2.12)
