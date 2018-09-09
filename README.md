@@ -15,6 +15,10 @@
       * Host Port: 2222
       * Guest IP: 10.0.2.15
       * Guest Port: 22
+      * Host IP: 127.0.0.1
+      * Host Port: 8000
+      * Guest IP: 10.0.2.15
+      * Guest Port: 8000
 
 ## Ubuntu 16.04
 
@@ -133,10 +137,6 @@ composer network start --networkName clp-network --networkVersion 0.0.1 --networ
 composer card import --file networkadmin.card
 
 composer network ping --card admin@clp-network
-
-cd fabric-dev-servers
-
-sudo ./startFabric.sh
 ```
 
 ```
