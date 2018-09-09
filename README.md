@@ -18,14 +18,15 @@
 
 ## Ubuntu 16.04
 
-sudo apt-get install -y openssh-server
+`sudo apt-get install -y openssh-server`
 
 ## From MAC terminal
 
-ssh -p 2222 username@127.0.0.1
+`ssh -p 2222 username@127.0.0.1`
 
 ## Pre-requisite
 
+```
 sudo apt-get install -y git
 
 git clone https://github.com/IBM/customer-loyalty-program
@@ -38,7 +39,6 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
 
-```
 pwd
 /home/<username>/
 npm config set prefix /home/<username>/
@@ -60,6 +60,7 @@ https://stackoverflow.com/questions/48866375/errorunable-to-install-composer-cli
 
 ### Install Docker CE
 
+```
 sudo apt-get update
 
 sudo apt-get install \
@@ -78,19 +79,23 @@ sudo add-apt-repository \
 sudo apt-get update
 
 sudo apt-get install -y docker-ce
+```
 
 * docker install in Ubuntu: https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository
 
 ### Install docker-compose
 
+```
 sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
+```
 
 * docker-compose install in Ubuntu: https://docs.docker.com/compose/install/#prerequisites
 
 ### demo Set-up
 
+```
 cd customer-loyalty-program/fabric-dev-servers
 
 cd /home/<username>/customer-loyalty-program/fabric-dev-servers
@@ -100,13 +105,14 @@ sudo ./downloadFabric.sh
 sudo ./startFabric.sh
 
 ./createPeerAdminCard.sh
+```
 
 ### Run Application
 
+```
 cd customer-loyalty-program/
 
 npm install
-
 
 cd customer-loyalty-program
 
@@ -119,7 +125,12 @@ composer network ping --card admin@clp-network
 cd fabric-dev-servers
 
 sudo ./startFabric.sh
+```
 
+```
 cd ..
+
 cd web-app
+
 npm start
+```
