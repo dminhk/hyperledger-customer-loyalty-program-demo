@@ -46,15 +46,16 @@ npm config set prefix /home/<username>/
  
 ## Hyperledger Composer Install (Composer Version : 0.19.4)
 
+```
 npm install -g composer-cli@0.19.4
 
 npm install -g composer-rest-server@0.19.4
 
 npm install -g generator-hyperledger-composer@0.19.4
+```
 
-* Note
-Hyperledger Composer
-https://stackoverflow.com/questions/48866375/errorunable-to-install-composer-cli
+* Hyperledger Composer
+  * https://stackoverflow.com/questions/48866375/errorunable-to-install-composer-cli
 
 ## Deploy Network - Deploy Hyperledger Fabric locally
 
