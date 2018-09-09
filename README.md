@@ -38,11 +38,11 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
 
-'''
+```
 pwd
 /home/<username>/
 npm config set prefix /home/<username>/
-'''
+```
  
 ## Hyperledger Composer Install (Composer Version : 0.19.4)
 
