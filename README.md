@@ -143,6 +143,8 @@ sudo ./startFabric.sh
 cd ..
 
 cd web-app
-
+npm install
+```
+```
 npm start
 ```
