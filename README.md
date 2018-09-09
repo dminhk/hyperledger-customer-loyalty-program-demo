@@ -106,13 +106,24 @@ sudo ./startFabric.sh
 ./createPeerAdminCard.sh
 ```
 
-### Run Application
+### Generate the Business Network Archive
 
 ```
-cd customer-loyalty-program/
+cd customer-loyalty-program
 
 npm install
 
+ls
+clp-network@0.0.1.bna  fabric-dev-servers  MAINTAINERS.md  package.json       queries.qry
+CONTRIBUTING.md        lib                 models          package-lock.json  README.md
+docs                   LICENSE             node_modules    permissions.acl    web-app
+```
+
+* clp-network@0.0.1.bna file is created.
+
+### Run Application
+
+```
 cd customer-loyalty-program
 
 composer network install --card PeerAdmin@hlfv1 --archiveFile clp-network@0.0.1.bna
