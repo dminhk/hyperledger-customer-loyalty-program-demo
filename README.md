@@ -6,7 +6,7 @@
 
 ## VM Preparation
 * Ubuntu 16.04 LTS on VirtualBox (5.2.12)
-  * 4096 MB Memory
+  * 8192 MB Memory
   * 20GB Drive (10GB is NOT enough)
   * Take a snapshot in VirtualBox for restore once baseline OS is installed
   * SSH to Ubuntu VM using NAT & Port Forwarding
